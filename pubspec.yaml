@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: projek_akhir_pemrogaman
 description: A new Flutter project
 
@@ -21,4 +22,29 @@ flutter:
   uses-material-design: true
 
   assets:
+=======
+name: projek_akhir_pemrogaman
+description: A new Flutter project
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+>>>>>>> 0c72e894db36e2689daf6f5a2df097bdec892311
     - assets/images/

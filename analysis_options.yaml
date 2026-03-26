@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 include: package:flutter_lints/flutter.yaml
 
 linter:
   rules:
+=======
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+>>>>>>> 0c72e894db36e2689daf6f5a2df097bdec892311
     # kamu bisa tambah aturan di sini nanti
