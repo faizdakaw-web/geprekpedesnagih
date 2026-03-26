@@ -1,17 +1,5 @@
-name: Firebase Hosting PR
-
-on:
-  pull_request:
-    branches:
-      - main
-
-jobs:
-  preview:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: "${{ secrets.GITHUB_TOKEN }}"
-          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
-          channelId: pr-${{ github.event.number }}
+- uses: FirebaseExtended/action-hosting-deploy@v0
+  with:
+    repoToken: "${{ secrets.GITHUB_TOKEN }}"
+    firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
+    channelId: pr-${{ github.event.number }}
